@@ -3,6 +3,7 @@
 	width:500px;
 	margin:0px auto 0px auto;
 	background-color:black;
+	box-shadow:10PX 5PX 5PX;
 }
 .upper{
 	height:200px;
@@ -35,7 +36,10 @@
 	}
 	.icons ul li{
 		display: inline-block;
-		width:50px;padding-top:0px;padding-left: 30px;
-		height:60px;margin:10px;
-		background-color:red;
+		width:60px;padding-top:0px;padding-left: 40px;
+		height:60px;margin:0px;
+		background-color:white;
+	}
+	.icons ul li:hover{
+		background-color:black;
 	}
